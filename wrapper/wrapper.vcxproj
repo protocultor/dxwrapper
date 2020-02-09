@@ -39,11 +39,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(IncludePath);E:\dx1dx7\dx8sdk\include</IncludePath>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include;..\libs\DirectX81SDK\include;</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(IncludePath);E:\dx1dx7\dx8sdk\include</IncludePath>
+    <IncludePath>$(IncludePath);$(DXSDK_DIR)Include;..\libs\DirectX81SDK\include;</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

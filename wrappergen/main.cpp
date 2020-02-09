@@ -831,9 +831,9 @@ void printCpp(int aIfaceNo)
 
 void main(void)
 {
-	parse("E:\\dx1dx7\\dx8sdk\\include\\ddraw.h");
-	parse("E:\\dx1dx7\\dx8sdk\\include\\ddrawex.h");
-	parse("E:\\dx1dx7\\dx8sdk\\include\\d3d.h");
+	parse("..\\libs\\DirectX81SDK\\include\\ddraw.h");
+	parse("..\\libs\\DirectX81SDK\\include\\ddrawex.h");
+	parse("..\\libs\\DirectX81SDK\\include\\d3d.h");
 	printf("Generating");
 	int i;
 	for (i = 0; i < (signed)gIface.size(); i++)
