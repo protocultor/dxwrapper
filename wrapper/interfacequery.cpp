@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "wrapper.h"
 
-void *d3d9InterfaceQuery(REFIID a);
-
 void genericQueryInterface(REFIID a, void **ptr)
 {
 #define QUERYINTERFACE(x) \

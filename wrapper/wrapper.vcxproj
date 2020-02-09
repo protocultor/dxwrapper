@@ -119,7 +119,6 @@
     <ClCompile Include="myIDirectDrawSurface7.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ddoutput.h" />
     <ClInclude Include="myIDirect3D.h" />
     <ClInclude Include="myIDirect3D2.h" />
     <ClInclude Include="myIDirect3D3.h" />
